@@ -18,9 +18,8 @@ public abstract class AbstractProposedExpressionAnalyser implements ProposedExpr
 	 *
 	 *
 	 */
-	public boolean canContribute(final ReadOnlyProposedExpressionAnalyserBlackboardView blackboard) {
+	public canContribute(final ReadOnlyProposedExpressionAnalyserBlackboardView blackboard) {
 		//implement method
-		return false;
 	}
 
     /**
