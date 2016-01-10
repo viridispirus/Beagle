@@ -3,6 +3,7 @@ package de.uka.ipd.sdq.beagle.core;
 import de.uka.ipd.sdq.beagle.core.analysis.MeasurementResultAnalyser;
 import de.uka.ipd.sdq.beagle.core.analysis.ReadOnlyProposedExpressionAnalyserBlackboardView;
 import de.uka.ipd.sdq.beagle.core.analysis.ReadOnlyMeasurementResultAnalyserBlackboardView;
+import de.uka.ipd.sdq.beagle.core.analysis.MeasurementResultAnalyserBlackboardView;
 
 /**
  * Implements MeasurementResultAnalyser interface.
