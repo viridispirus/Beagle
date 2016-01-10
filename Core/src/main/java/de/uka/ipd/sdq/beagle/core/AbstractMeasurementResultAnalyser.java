@@ -1,6 +1,8 @@
 package de.uka.ipd.sdq.beagle.core;
 
 import de.uka.ipd.sdq.beagle.core.analysis.MeasurementResultAnalyser;
+import de.uka.ipd.sdq.beagle.core.analysis.ReadOnlyProposedExpressionAnalyserBlackboardView;
+import de.uka.ipd.sdq.beagle.core.analysis.ReadOnlyMeasurementResultAnalyserBlackboardView;
 
 /**
  * Implements MeasurementResultAnalyser interface.
@@ -15,7 +17,7 @@ public abstract class AbstractMeasurementResultAnalyser implements MeasurementRe
 	 *
 	 *
 	 */
-	public boolean canContribute(final ReadOnlyMeasurementResultAnalyserBlackboardView blackboard) {
+	public boolean canContribute(ReadOnlyMeasurementResultAnalyserBlackboardView blackboard) {
 		//implement method
 		return false;
 	}

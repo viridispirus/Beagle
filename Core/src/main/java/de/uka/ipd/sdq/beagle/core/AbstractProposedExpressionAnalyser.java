@@ -1,6 +1,8 @@
 package de.uka.ipd.sdq.beagle.core;
 
 import de.uka.ipd.sdq.beagle.core.analysis.ProposedExpressionAnalyser;
+import de.uka.ipd.sdq.beagle.core.analysis.ReadOnlyProposedExpressionAnalyserBlackboardView;
+import de.uka.ipd.sdq.beagle.core.analysis.ProposedExpressionAnalyserBlackboardView;
 
 /**
  * Implements ProposedExpressionAnalyser interface.
@@ -15,7 +17,7 @@ public abstract class AbstractProposedExpressionAnalyser implements ProposedExpr
 	 *
 	 *
 	 */
-	public boolean canContribute(final ReadOnlyProposedExpressionBlackboardView blackboard) {
+	public boolean canContribute(final ReadOnlyProposedExpressionAnalyserBlackboardView blackboard) {
 		//implement method
 		return false;
 	}
