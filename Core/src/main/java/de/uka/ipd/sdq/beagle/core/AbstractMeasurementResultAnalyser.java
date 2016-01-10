@@ -6,7 +6,7 @@ package de.uka.ipd.sdq.beagle.core;
  * @author Michael Vogt
  * @see MeasurementResultAnalyser
  */
-public abstract class MeasurementResultAnalyser implements MeasurementResultAnalyser {
+public abstract class AbstractMeasurementResultAnalyser implements MeasurementResultAnalyser {
 
     /**
 	 *

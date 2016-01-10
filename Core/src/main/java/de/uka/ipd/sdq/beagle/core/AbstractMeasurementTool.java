@@ -6,10 +6,10 @@ package de.uka.ipd.sdq.beagle.core;
 * @author Michael Vogt
 * @see MeasurementController
 */
-public abstract class MeasurementTool implements MeasurementTool{
+public abstract class AbstractMeasurementTool implements MeasurementTool {
 		
 		/**
-		* fds
+		* 
 		*
 		*
 		*

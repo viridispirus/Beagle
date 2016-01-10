@@ -6,7 +6,7 @@ package de.uka.ipd.sdq.beagle.core;
  * @author Michael Vogt
  * @see ProposedExpressionAnalyser
  */
-public abstract class ProposedExpressionAnalyser implements ProposedExpressionAnalyser {
+public abstract class AbstractProposedExpressionAnalyser implements ProposedExpressionAnalyser {
 
     /**
 	 *
