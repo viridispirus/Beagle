@@ -1,5 +1,7 @@
 package de.uka.ipd.sdq.beagle.core;
 
+import de.uka.ipd.sdq.beagle.core.analysis.ProposedExpressionAnalyser;
+
 /**
  * Implements ProposedExpressionAnalyser interface.
  *
