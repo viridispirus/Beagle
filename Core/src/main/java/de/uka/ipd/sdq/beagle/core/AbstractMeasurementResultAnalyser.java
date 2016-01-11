@@ -18,8 +18,9 @@ public abstract class AbstractMeasurementResultAnalyser implements MeasurementRe
 	 *
 	 *
 	 */
-	public canContribute(ReadOnlyMeasurementResultAnalyserBlackboardView blackboard) {
+	public boolean canContribute(ReadOnlyMeasurementResultAnalyserBlackboardView blackboard) {
 		//implement method
+		return false;
 	}
 
     /**
